@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica;
+  color: white;
+  background-color: darkblue;
+  font-size: 30pt;
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid white;
+}
+
+th {
+  height: 1.5em;
+  font-size: 0.7em;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+td {
+  font-weight: bold;
+}
+
+
+td.center, th.center {
+  text-align: center;
+}
+
+
+td.service > div {
+  color: black;
+  background-color: white;
+  text-background: white;
+}
